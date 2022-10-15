@@ -1,0 +1,13 @@
+.col-md-12 {
+    float: left;
+    width: 100%;
+    
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }

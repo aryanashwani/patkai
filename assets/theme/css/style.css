@@ -959,3 +959,89 @@ blockquote {
 	top: 0;
 	left: -2400px;
 }
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.Coordinator{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.CoordinatorCard{
+  margin: 20px 50px 50px 20px;
+  width: 25%;
+}
+
+.SocialLinks{
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.SocialLinks div{
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.items1{
+  margin-left: 30px;
+}
+
+.items2{
+  margin-right: 30px;
+}
+.card-title{
+ font-size: larger; 
+ font-weight: 200;
+}
+.mbr-role{
+  font-size: medium;   
+}
+.news {
+  background-color: whitesmoke !important;
+  /* background-color: rgb(95, 95, 105) !important; */
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.news h3 {
+  text-align: center;
+  font-weight: bold;
+  background-color: #131b69;
+  color: #fff;
+  margin-top: 0px auto !important;
+}
+marquee{
+  height: 380px;
+}
+marquee .news-article{
+  color: white;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+marquee .news-article a:link{
+  color: white;
+  font-weight: bold;
+  padding-left: 10px !important;
+}
+.new-section {
+  background-color: rgb(244, 222, 25) !important;
+  margin-top: 5px !important;
+}
