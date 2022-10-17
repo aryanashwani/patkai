@@ -95,8 +95,8 @@ body {
   border-radius: 4px;
 }
 .btn-lg {
-  padding: 1rem 2.6rem;
-  border-radius: 4px;
+  /* padding: 1rem 2.6rem; */
+  border-radius: 3px;
 }
 .bg-primary {
   background-color: #142cf1 !important;
@@ -2609,9 +2609,10 @@ a {
   text-align: center;
 }
 .cid-tjT8nyCF5V {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/background3.jpg");
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  
+  background-image: url("../../../assets/images/image.jpg");
 }
 .cid-tjT8nyCF5V img,
 .cid-tjT8nyCF5V .item-img {
@@ -3322,7 +3323,8 @@ a {
 .cid-tjT9GOu9XL {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-image: url("../../../assets/images/image.jpg");
 }
 .cid-tjT9GOu9XL .mbr-fallback-image.disabled {
   display: none;

@@ -339,7 +339,7 @@ nav .mbr-section-btn {
 
 /*! Full-screen */
 .mbr-fullscreen .mbr-overlay {
-  min-height: 100vh;
+  min-height: 1000px;
 }
 
 .mbr-fullscreen {
@@ -350,7 +350,7 @@ nav .mbr-section-btn {
   align-items: center;
   min-height: 100vh;
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom:3rem;
 }
 
 /*! Map */
