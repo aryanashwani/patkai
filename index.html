@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="assets/dropdown/css/style.css">
     <link rel="stylesheet" href="assets/socicon/css/styles.css">
     <link rel="stylesheet" href="assets/theme/css/style.css">
+    <link rel="stylesheet" href="assets/theme/css/index2.css">
     <link rel="preload"
         href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"
         as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -77,7 +78,7 @@
                         <li class="nav-item"><a class="nav-link link text-black display-4"
                                 href="Boarders.html">Boarders <br></a></li>
                         <li class="nav-item"><a class="nav-link link text-black display-4"
-                                href="Gallery.html">Gallary</a></li>
+                                href="Gallery.html">Gallery</a></li>
                         <li class="nav-item"><a class="nav-link link text-black display-4"
                                 href="Facilities.html">Facilities</a></li>
                         <li class="nav-item"><a class="nav-link link text-black display-4"
@@ -90,7 +91,24 @@
             </div>
         </nav>
     </section>
-
+    <script>
+        // Get the video
+        var video = document.getElementById("myVideo");
+        
+        // Get the button
+        var btn = document.getElementById("myBtn");
+        
+        // Pause and play the video, and change the button text
+        function myFunction() {
+          if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+          } else {
+            video.pause();
+            btn.innerHTML = "Play";
+          }
+        }
+        </script>
     <section data-bs-version="5.1" class="header14 cid-tjRVZluBLJ mbr-parallax-background" id="header14-b">
 
 
@@ -99,9 +117,21 @@
         <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(187, 187, 187);"></div>
 
         <div class="container-fluid">
+            <video autoplay muted loop id="myVideo">
+                <source src="assets/images/ezgif.com-gif-maker-2.mp4" type="video/mp4">
+              </video>
+        
+              <div class="content3">
+                <h1></h1>
+                <p></p>
+                <!-- Use a button to pause/play the video with JavaScript -->
+                <button id="myBtn" onclick="myFunction()"></button>
+              </div>
             <div class="row justify-content-center align-items-center">
+                
                 <div class="col-12 col-md-6 image-wrapper">
-                    <img src="assets/images/img-20220924-173717-1288x966 - Copy.jpeg" alt="">
+                    <img src="assets/images/img-20220924-173717-1288x966 - Copy.jpeg" alt=""
+                    visibility: hidden>
                 </div>
                 <div class="col-12 col-md">
                     <div class="text-wrapper">
@@ -112,26 +142,188 @@
                             </span><span class="mbr-section-title mbr-fonts-style mb-3 display-2 letters"><strong>
                             </strong>
                             <div><strong>PATKAI MEN'S HOSTEL</strong></div>
-                        </span>
-                          </h1>
-                          
-                          
-
-                        
-                        <p class="mbr-text mbr-fonts-style display-7">
+                        </span><br>
+                         <p class="mbr-text mbr-fonts-style display-7">
                             The Patkai Men's Hostel was inaugurated in the auspicious day of 23rd July 2011 by Shri
                             Srikant Kumar Jena, Hon'ble Union minister of state for Statistics and programme
                             implementation.</p>
+                          </h1>
+                       
 
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <br>
+    
     <section data-bs-version="5.1" class="slider1 cid-tjSSyWqhQZ" id="slider1-e">
-
-        <div class="carousel slide" id="tjYJg7IKql" data-interval="5000" data-bs-interval="5000">
+        <div class="container4">
+            <div class="full-view"></div>
+            <div class="preview-list">
+                <ul class="lists">
+                    <li>
+                        <input type="radio" id="tab-1" name="gallery-group">
+                        <label for="tab-1">
+                            <div class="tab">
+                                <img
+                                    src="assets/images/7.jpg" />
+                            </div>
+                        </label>
+                        <div class="content4">
+                            <img
+                                src="assets/images/7.jpg" />
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-2" name="gallery-group">
+                        <label for="tab-2">
+                            <div class="tab">
+                                <img
+                                    src="assets/images/1.jpg" />
+                            </div>
+                        </label>
+                        <div class="content4">
+                            <img
+                                src="assets/images/1.jpg" />
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-3" name="gallery-group">
+                        <label for="tab-3">
+                            <div class="tab">
+                                <img
+                                    src="assets/images/1march2022.jpeg" />
+                            </div>
+                        </label>
+                        <div class="content4">
+                            <img
+                                src="assets/images/1march2022.jpeg" />
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-4" name="gallery-group" checked>
+                        <label for="tab-4">
+                            <div class="tab">
+                                <img
+                                    src="assets/images/2.jpg" />
+                            </div>
+                        </label>
+                        <div class="content4">
+                            <img src="assets/images/2.jpg" />
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-5" name="gallery-group">
+                        <label for="tab-5">
+                            <div class="tab">
+                                <img
+                                    src="assets/images/1-1900x1140.jpg" />
+                            </div>
+                        </label>
+                        <div class="content4">
+                                <img src="assets/images/1-1900x1140.jpg" />
+                            </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-6" name="gallery-group">
+                        <label for="tab-6">
+                            <div class="tab">
+                                <img
+                                    src="assets/images/9.jpg" />
+                            </div>
+                        </label>
+                        <div class="content4">
+                                <img src="assets/images/9.jpg" />
+                            </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-7" name="gallery-group">
+                        <label for="tab-7">
+                            <div class="tab">
+                                <img
+                                    src="assets/images/13.jpg" />
+                            </div>
+                        </label>
+                        <div class="content4">
+                                <img src="assets/images/13.jpg" />
+                            </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-8" name="gallery-group">
+                        <label for="tab-8">
+                            <div class="tab">
+                                <img
+                                    src="assets/images/14.jpg" />
+                            </div>
+                        </label>
+                        <div class="content4">
+                                <img src="assets/images/14.jpg" />
+                            </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-9" name="gallery-group">
+                        <label for="tab-9">
+                            <div class="tab">
+                                <img
+                                    src="assets/images/3.jpg" />
+                            </div>
+                        </label>
+                        <div class="content4">
+                                <img src="assets/images/3.jpg" />
+                            </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-10" name="gallery-group">
+                        <label for="tab-10">
+                            <div class="tab">
+                                <img
+                                    src="assets/images/8.jpg" />
+                            </div>
+                        </label>
+                        <div class="content4">
+                                <img src="assets/images/8.jpg" />
+                            </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-11" name="gallery-group">
+                        <label for="tab-11">
+                            <div class="tab">
+                                <img
+                                    src="assets/images/11.jpg" />
+                            </div>
+                        </label>
+                        <div class="content4">
+                                <img src="assets/images/11.jpg" />
+                            </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-12" name="gallery-group">
+                        <label for="tab-12">
+                            <div class="tab">
+                                <img
+                                    src="assets/images/cric2.jpg" />
+                            </div>
+                        </label>
+                        <div class="content4">
+                                <img src="assets/images/cric2.jpg" />
+                            </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-13" name="gallery-group">
+                        <label for="tab-13">
+                            <div class="tab">
+                                <img
+                                    src="assets/images/15.jpg" />
+                            </div>
+                        </label>
+                        <div class="content4">
+                                <img src="assets/images/15.jpg" />
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div class="carousel slide" id="tjYJg7IKql" data-interval="5000" data-bs-interval="5000">
             <ol class="carousel-indicators">
                 <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#tjYJg7IKql"
                     data-bs-target="#tjYJg7IKql"></li>
@@ -153,13 +345,22 @@
                     data-bs-target="#tjYJg7IKql"></li>
                     <li data-slide-to="9" data-bs-slide-to="9" class="" data-target="#tjYJg7IKql"
                     data-bs-target="#tjYJg7IKql"></li>
-
+                    <li data-slide-to="10" data-bs-slide-to="10" class="" data-target="#tjYJg7IKql"
+                    data-bs-target="#tjYJg7IKql"></li>
+                <li data-slide-to="11" data-bs-slide-to="11" class="" data-target="#tjYJg7IKql"
+                    data-bs-target="#tjYJg7IKql"></li>
+                <li data-slide-to="12" data-bs-slide-to="12" class="" data-target="#tjYJg7IKql"
+                    data-bs-target="#tjYJg7IKql"></li>
+                <li data-slide-to="13" data-bs-slide-to="13" class="" data-target="#tjYJg7IKql"
+                    data-bs-target="#tjYJg7IKql"></li>
+                    <li data-slide-to="14" data-bs-slide-to="14" class="" data-target="#tjYJg7IKql"
+                    data-bs-target="#tjYJg7IKql"></li>
 
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item slider-image item active">
                     <div class="item-wrapper">
-                        <img class="d-block w-100" src="assets/images/1march2022.jpeg" alt="Patkai Men's Hostel"
+                        <img class="d-block w-100" src="assets/images/1.jpg" alt="Patkai Men's Hostel"
                             data-slide-to="0" data-bs-slide-to="0">
 
 
@@ -167,7 +368,7 @@
                 </div>
                 <div class="carousel-item slider-image item">
                     <div class="item-wrapper">
-                        <img class="d-block w-100" src="assets/images/1-1900x1140.jpg" alt="Patkai Men's Hostel"
+                        <img class="d-block w-100" src="assets/images/2.jpg" alt="Patkai Men's Hostel"
                             data-slide-to="8" data-bs-slide-to="8">
 
 
@@ -175,7 +376,7 @@
                 </div>
                 <div class="carousel-item slider-image item">
                     <div class="item-wrapper">
-                        <img class="d-block w-100" src="assets/images/2-1280x960.jpg" alt="Patkai Men's Hostel"
+                        <img class="d-block w-100" src="assets/images/7.jpg" alt="Patkai Men's Hostel"
                             data-slide-to="1" data-bs-slide-to="1">
 
 
@@ -183,7 +384,7 @@
                 </div>
                 <div class="carousel-item slider-image item">
                     <div class="item-wrapper">
-                        <img class="d-block w-100" src="assets/images/4-1080x720.jpg" alt="Patkai Men's Hostel"
+                        <img class="d-block w-100" src="assets/images/9.jpg" alt="Patkai Men's Hostel"
                             data-slide-to="2" data-bs-slide-to="2">
 
 
@@ -191,7 +392,7 @@
                 </div>
                 <div class="carousel-item slider-image item">
                     <div class="item-wrapper">
-                        <img class="d-block w-100" src="assets/images/img-20220924-174003-1900x1427.jpg"
+                        <img class="d-block w-100" src="assets/images/4.jpg"
                             alt="Patkai Men's Hostel" data-slide-to="3" data-bs-slide-to="3">
 
 
@@ -199,7 +400,47 @@
                 </div>
                 <div class="carousel-item slider-image item">
                     <div class="item-wrapper">
-                        <img class="d-block w-100" src="assets/images/img-20220924-183330-1900x1427.jpg"
+                        <img class="d-block w-100" src="assets/images/1march2022.jpeg" alt="Patkai Men's Hostel"
+                            data-slide-to="10" data-bs-slide-to="10">
+
+
+                    </div>
+                </div>
+                <div class="carousel-item slider-image item">
+                    <div class="item-wrapper">
+                        <img class="d-block w-100" src="assets/images/1-1900x1140.jpg" alt="Patkai Men's Hostel"
+                            data-slide-to="11" data-bs-slide-to="11">
+
+
+                    </div>
+                </div>
+                <div class="carousel-item slider-image item">
+                    <div class="item-wrapper">
+                        <img class="d-block w-100" src="assets/images/2-1280x960.jpg" alt="Patkai Men's Hostel"
+                            data-slide-to="12" data-bs-slide-to="12">
+
+
+                    </div>
+                </div>
+                <div class="carousel-item slider-image item">
+                    <div class="item-wrapper">
+                        <img class="d-block w-100" src="assets/images/4-1080x720.jpg" alt="Patkai Men's Hostel"
+                            data-slide-to="13" data-bs-slide-to="13">
+
+
+                    </div>
+                </div>
+                <div class="carousel-item slider-image item">
+                    <div class="item-wrapper">
+                        <img class="d-block w-100" src="assets/images/13.jpg"
+                            alt="Patkai Men's Hostel" data-slide-to="14" data-bs-slide-to="14">
+
+
+                    </div>
+                </div>
+                <div class="carousel-item slider-image item">
+                    <div class="item-wrapper">
+                        <img class="d-block w-100" src="assets/images/14.jpg"
                             alt="Patkai Men's Hostel" data-slide-to="4" data-bs-slide-to="4">
 
 
@@ -207,7 +448,7 @@
                 </div>
                 <div class="carousel-item slider-image item">
                     <div class="item-wrapper">
-                        <img class="d-block w-100" src="assets/images/img-20220924-173717-1900x1425.jpg"
+                        <img class="d-block w-100" src="assets/images/3.jpg"
                             alt="Patkai Men's Hostel" data-slide-to="5" data-bs-slide-to="5">
 
 
@@ -215,7 +456,7 @@
                 </div>
                 <div class="carousel-item slider-image item">
                     <div class="item-wrapper">
-                        <img class="d-block w-100" src="assets/images/img-20220925-250-1900x1425.jpg"
+                        <img class="d-block w-100" src="assets/images/8.jpg"
                             alt="Patkai Men's Hostel" data-slide-to="6" data-bs-slide-to="6">
 
 
@@ -223,7 +464,7 @@
                 </div>
                 <div class="carousel-item slider-image item">
                     <div class="item-wrapper">
-                        <img class="d-block w-100" src="assets/images/5-1900x1141.png" alt="Patkai Men's Hostel"
+                        <img class="d-block w-100" src="assets/images/11.jpg" alt="Patkai Men's Hostel"
                             data-slide-to="7" data-bs-slide-to="7">
 
 
@@ -251,10 +492,73 @@
                 <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
                 <span class="sr-only visually-hidden">Next</span>
             </a>
-        </div>
+        </div> -->
     </section>
-<br>
-    <section data-bs-version="5.1" class="features1 cid-tjM5WTLOQN mbr-parallax-background" id="features1-2">
+
+<section data-bs-version="5.1" class="contacts4 cid-tjMjAZQbPB" id="contacts4-6">
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(187, 187, 187);">
+    </div>
+
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-4">
+                <div class="news">
+                  <h3>Notification</h3>
+                  <marquee
+                    behavior="scroll"
+                    direction="up"
+                    scrollamount="5"
+                    scrolldelay="100"
+                    onmouseover="this.stop();"
+                    onmouseout="this.start()"
+                  >
+                    <div class="news-article">
+                      <ul>
+                        <div class="new-section">
+                            <a href="leave_card.pdf">Hostel Leave Form</a>
+                          </div>
+                          <br>
+                        <div class="new-section">
+                            <a href="spandan.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Foundation Day 2022<br><br>Patkai Men's Hostel Brings to you "SPANDAN" 2022 </a>
+                          </div>
+                          <br>
+                          <div class="new-section">
+                          <a href="">Classes of the continuing students for the Autumn Semester, 2022 will commence from 1st August, 2022 for M.Tech programmes and 8th August, 2022 for other programmes.</a>
+                        </div>
+                        <br>
+                        <div class="new-section">
+                          <a href="">PMH has deep condolence to all those who have some lost in this COVID-19 pandemic situation. PMH also considers those people thankful due to which we all are able to come over with this situation. We wishes for your better future!</a>
+                        </div>
+  
+                        
+                      </ul>
+                    </div>
+                  </marquee>
+                  <a href="Notification.html" class="btn btn-primary btn-lg active" role="button"
+                    >view all</a
+                  >
+              </div>
+          </div>
+            <div class="text-content col-12 col-md-6 order-2">
+                <h2 class="mbr-section-title mbr-fonts-style display-2">
+                    <strong>About Us</strong>
+                </h2>
+                <p class="mbr-text mbr-fonts-style display-7">The Patkai Men's Hostel was inaugurated in the
+                    auspicious day of 23rd July 2011 by Shri Srikant Kumar Jena, Hon'ble Union minister of state for
+                    Statistics and programme implementation. The hostel with a magnificent building sprawling over a
+                    large area is a masterpiece in itself. Patkai Men's Hostel boasts of excellent infrastructure
+                    with a fully equipped Common Room, with Sports kits readily available to the boarders. Patkai
+                    Men's Hostel is presently one of the largest men's hostel of Tezpur University having the
+                    strength to accommodate 450+ boarders.</p>
+            </div>
+            
+        </div>
+    </div>
+
+</section>
+
+<section data-bs-version="5.1" class="features1 cid-tjM5WTLOQN mbr-parallax-background" id="features1-2">
 
         <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(187, 187, 187);">
         </div>
@@ -333,82 +637,156 @@
             </div>
         </div>
     </section>
-    <br>
-    <section data-bs-version="5.1" class="contacts4 cid-tjMjAZQbPB" id="contacts4-6">
+   
+    
+<style>
 
+    .item-wrapper{
+        transition: 0.3s all ease-in;
+    }
 
-
-
-        <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(187, 187, 187);">
-        </div>
-
-        <div class="container">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-md-4">
-                    <div class="news">
-                      <h3>Notification</h3>
-                      <marquee
-                        behavior="scroll"
-                        direction="up"
-                        scrollamount="5"
-                        scrolldelay="100"
-                        onmouseover="this.stop();"
-                        onmouseout="this.start()"
-                      >
-                        <div class="news-article">
-                          <ul>
-                              <div class="new-section">
-                              <a href="">Classes of the continuing students for the Autumn Semester, 2022 will commence from 1st August, 2022 for M.Tech programmes and 8th August, 2022 for other programmes.</a>
-                            </div>
-                            <br>
-                            <div class="new-section">
-                              <a href="">PMH has deep condolence to all those who have some lost in this COVID-19 pandemic situation. PMH also considers those people thankful due to which we all are able to come over with this situation. We wishes for your better future!</a>
-                            </div>
-      
-                            
-                          </ul>
-                        </div>
-                      </marquee>
-                      <a href="Notification.html" class="btn btn-primary btn-lg active" role="button"
-                        >view all</a
-                      >
-                  </div>
-              </div>
-                <div class="text-content col-12 col-md-6 order-2">
-                    <h2 class="mbr-section-title mbr-fonts-style display-2">
-                        <strong>About Us</strong>
-                    </h2>
-                    <p class="mbr-text mbr-fonts-style display-7">The Patkai Men's Hostel was inaugurated in the
-                        auspicious day of 23rd July 2011 by Shri Srikant Kumar Jena, Hon'ble Union minister of state for
-                        Statistics and programme implementation. The hostel with a magnificent building sprawling over a
-                        large area is a masterpiece in itself. Patkai Men's Hostel boasts of excellent infrastructure
-                        with a fully equipped Common Room, with Sports kits readily available to the boarders. Patkai
-                        Men's Hostel is presently one of the largest men's hostel of Tezpur University having the
-                        strength to accommodate 450+ boarders.</p>
-                </div>
-                
-            </div>
-        </div>
-
-    </section>
-<br>
+    .item-wrapper:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+  </style>
     <section data-bs-version="5.1" class="gallery4 mbr-gallery cid-tjSz3yJgcJ" id="gallery4-d">
 
-
+       
 
         <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(187, 187, 187);">
         </div>
-
-        <div class="container">
+       
+        <ul id="hexGrid">
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="/Gallery.html">
+                  <img src="assets/images/hostelgallery.jpg" alt="" />
+                  <h1>Patkai Men's Hostel</h1>
+                  <p>committee</p>
+                </a>
+              </div>
+            </li>
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="/Achievement.html">
+                  <img src="assets/images/13.jpg" alt="" />
+                  <h1>Patkai Men's Hostel</h1>
+                  <p>Champion 2022-23 Inter Hostel Volleyball Competition</p>
+                </a>
+              </div>
+            </li>
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="/Achievement.html">
+                  <img src="assets/images/1.jpg" alt="" />
+                  <h1>Patkai Men's Hostel</h1>
+                  <p>Champion 2022-23
+                    March Past Competition</p>
+                </a>
+              </div>
+            </li>
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="/Achievement.html">
+                  <img src="assets/images/2.jpg" alt="" />
+                  <h1>Patkai Men's Hostel</h1>
+                  <p>Champion 2022-23
+                    March Past Competition</p>
+                </a>
+              </div>
+            </li>
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="/Achievement.html">
+                  <img src="assets/images/march2022.jpeg" alt="" />
+                  <h1>Patkai Men's Hostel</h1>
+                  <p>Champion 2021-22
+                    March Past Competition</p>
+                </a>
+              </div>
+            </li>
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="/Achievement.html">
+                  <img src="assets/images/20.jpg" alt="" />
+                  <h1>Patkai Men's Hostel</h1>
+                  <p>Runners-up 2022-23
+                    Inter Hostel Cricket Competition</p>
+                </a>
+              </div>
+            </li>
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="/Achievement.html">
+                  <img src="assets/images/21.jpg" alt="" />
+                  <h1>Patkai Men's Hostel</h1>
+                  <p>Champion 2022-23
+                    Inter Hostel Tug of War Competition</p>
+                </a>
+              </div>
+            </li>
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="/Achievement.html">
+                  <img src="assets/images/24.jpg" alt="" />
+                  <h1></h1>
+                  <p>Champion 2022-23
+                    Inter Hostel Bihu Competition</p>
+                </a>
+              </div>
+            </li>
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="/Achievement.html">
+                  <img src="assets/images/15.jpg" alt="" />
+                  <h1>Patkai Men's Hostel</h1>
+                  <p>Champion 2022-23
+                    Inter Hostel Badminton Competition</p>
+                </a>
+              </div>
+            </li>
+            <li class="hex">
+              <div class="hexIn">
+                <a class="hexLink" href="/Achievement.html">
+                  <img src="assets/images/volley1.jpeg" alt="" />
+                  <h1>Patkai Men's Hostel</h1>
+                  <p>Champion 2021-22
+                    Inter Hostel Volleyball Competition</p>
+                </a>
+              </div>
+            </li>
+            <li class="hex">
+                <div class="hexIn">
+                  <a class="hexLink" href="/Gallery.html">
+                    <img src="assets/images/19.jpg" alt="" />
+                    <h1>Patkai Men's Hostel</h1>
+                    <p>Patkai Men's Hostel Boarders with Champion</p>
+                  </a>
+                </div>
+              </li>
+              <li class="hex">
+                <div class="hexIn">
+                  <a class="hexLink" href="/Gallery.html">
+                    <img src="assets/images/admin.jpeg" alt="" />
+                    <h1>Patkai Men's Hostel</h1>
+                    <p>PMH Admin Body 2022-23</p>
+                  </a>
+                </div>
+              </li>
+          
+          </ul>
+        <!-- <div class="container">
             <div class="mbr-section-head">
                 <h3 class="mbr-section-title mbr-fonts-style align-center m-0 display-2"><strong>Gallery</strong></h3>
 
             </div>
             <div class="row mbr-gallery mt-4">
+                
                 <div class="col-12 col-md-6 col-lg-4 item gallery-image">
                     <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tjYJgd938z-modal"
                         data-bs-target="#tjYJgd938z-modal">
-                        <img class="w-100" src="assets/images/img-20220924-174003-1288x968.jpeg"
+                        <img class="w-100" src="assets/images/hostelgallery.jpg"
                             alt="Patkai Men's Hostel" data-slide-to="0" data-bs-slide-to="0"
                             data-target="#lb-tjYJgd938z" data-bs-target="#lb-tjYJgd938z">
                         <div class="icon-wrapper">
@@ -422,7 +800,7 @@
                 <div class="col-12 col-md-6 col-lg-4 item gallery-image">
                     <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tjYJgd938z-modal"
                         data-bs-target="#tjYJgd938z-modal">
-                        <img class="w-100" src="assets/images/img-20220924-173717-1288x966.jpeg"
+                        <img class="w-100" src="assets/images/13.jpg"
                             alt="Patkai Men's Hostel" data-slide-to="1" data-bs-slide-to="1"
                             data-target="#lb-tjYJgd938z" data-bs-target="#lb-tjYJgd938z">
                         <div class="icon-wrapper">
@@ -436,7 +814,7 @@
                 <div class="col-12 col-md-6 col-lg-4 item gallery-image">
                     <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tjYJgd938z-modal"
                         data-bs-target="#tjYJgd938z-modal">
-                        <img class="w-100" src="assets/images/img-20220924-183330-1288x968.jpeg"
+                        <img class="w-100" src="assets/images/1.jpg"
                             alt="Patkai Men's Hostel" data-slide-to="2" data-bs-slide-to="2"
                             data-target="#lb-tjYJgd938z" data-bs-target="#lb-tjYJgd938z">
                         <div class="icon-wrapper">
@@ -450,7 +828,7 @@
                 <div class="col-12 col-md-6 col-lg-4 item gallery-image">
                     <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tjYJgd938z-modal"
                         data-bs-target="#tjYJgd938z-modal">
-                        <img class="w-100" src="assets/images/img-20220925-250-1288x966.jpeg"
+                        <img class="w-100" src="assets/images/2.jpg"
                             alt="Patkai Men's Hostel" data-slide-to="3" data-bs-slide-to="3"
                             data-target="#lb-tjYJgd938z" data-bs-target="#lb-tjYJgd938z">
                         <div class="icon-wrapper">
@@ -479,8 +857,94 @@
                 <div class="col-12 col-md-6 col-lg-4 item gallery-image">
                     <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tjYJgd938z-modal"
                         data-bs-target="#tjYJgd938z-modal">
-                        <img class="w-100" src="assets/images/cric2.jpg"
+                        <img class="w-100" src="assets/images/20.jpg"
                             alt="Patkai Men's Hostel" data-slide-to="5" data-bs-slide-to="5"
+                            data-target="#lb-tjYJgd938z" data-bs-target="#lb-tjYJgd938z">
+                        <div class="icon-wrapper">
+                            <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                        </div>
+                    </div>
+                    <h6 class="mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-2 display-7">
+                         <a href="#" class="text-primary"></a>
+                    </h6>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 item gallery-image">
+                    <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tjYJgd938z-modal"
+                        data-bs-target="#tjYJgd938z-modal">
+                        <img class="w-100" src="assets/images/21.jpg"
+                            alt="Patkai Men's Hostel" data-slide-to="6" data-bs-slide-to="6"
+                            data-target="#lb-tjYJgd938z" data-bs-target="#lb-tjYJgd938z">
+                        <div class="icon-wrapper">
+                            <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                        </div>
+                    </div>
+                    <h6 class="mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-2 display-7">
+                         <a href="#" class="text-primary"></a>
+                    </h6>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 item gallery-image">
+                    <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tjYJgd938z-modal"
+                        data-bs-target="#tjYJgd938z-modal">
+                        <img class="w-100" src="assets/images/22.jpg"
+                            alt="Patkai Men's Hostel" data-slide-to="7" data-bs-slide-to="7"
+                            data-target="#lb-tjYJgd938z" data-bs-target="#lb-tjYJgd938z">
+                        <div class="icon-wrapper">
+                            <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                        </div>
+                    </div>
+                    <h6 class="mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-2 display-7">
+                         <a href="#" class="text-primary"></a>
+                    </h6>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 item gallery-image">
+                    <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tjYJgd938z-modal"
+                        data-bs-target="#tjYJgd938z-modal">
+                        <img class="w-100" src="assets/images/15.jpg"
+                            alt="Patkai Men's Hostel" data-slide-to="8" data-bs-slide-to="8"
+                            data-target="#lb-tjYJgd938z" data-bs-target="#lb-tjYJgd938z">
+                        <div class="icon-wrapper">
+                            <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                        </div>
+                    </div>
+                    <h6 class="mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-2 display-7">
+                         <a href="#" class="text-primary"></a>
+                    </h6>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 item gallery-image">
+                    <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tjYJgd938z-modal"
+                        data-bs-target="#tjYJgd938z-modal">
+                        <img class="w-100" src="assets/images/volley1.jpeg"
+                            alt="Patkai Men's Hostel" data-slide-to="9" data-bs-slide-to="9"
+                            data-target="#lb-tjYJgd938z" data-bs-target="#lb-tjYJgd938z">
+                        <div class="icon-wrapper">
+                            <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                        </div>
+                    </div>
+                    <h6 class="mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-2 display-7">
+                         <a href="#" class="text-primary"></a>
+                    </h6>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 item gallery-image">
+                    <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tjYJgd938z-modal"
+                        data-bs-target="#tjYJgd938z-modal">
+                        <img class="w-100" src="assets/images/19.jpg"
+                            alt="Patkai Men's Hostel" data-slide-to="10" data-bs-slide-to="10"
+                            data-target="#lb-tjYJgd938z" data-bs-target="#lb-tjYJgd938z">
+                        <div class="icon-wrapper">
+                            <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                        </div>
+                    </div>
+                    <h6 class="mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-2 display-7">
+                         <a href="#" class="text-primary"></a>
+                    </h6>
+                </div>
+
+                
+                <div class="col-12 col-md-6 col-lg-4 item gallery-image">
+                    <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tjYJgd938z-modal"
+                        data-bs-target="#tjYJgd938z-modal">
+                        <img class="w-100" src="assets/images/admin.jpeg"
+                            alt="Patkai Men's Hostel" data-slide-to="11" data-bs-slide-to="11"
                             data-target="#lb-tjYJgd938z" data-bs-target="#lb-tjYJgd938z">
                         <div class="icon-wrapper">
                             <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
@@ -501,20 +965,20 @@
                             <div class="carousel slide carousel-fade" id="lb-tjYJgd938z" data-ride="carousel"
                                 data-bs-ride="carousel" data-interval="6000" data-bs-interval="6000">
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" src="assets/images/img-20220924-174003-1288x968.jpeg"
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="assets/images/hostelgallery.jpg"
                                             alt="Patkai Men's Hostel">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="assets/images/img-20220924-173717-1288x966.jpeg"
+                                        <img class="d-block w-100" src="assets/images/13.jpg"
                                             alt="Patkai Men's Hostel">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="assets/images/img-20220924-183330-1288x968.jpeg"
+                                        <img class="d-block w-100" src="assets/images/1.jpg"
                                             alt="Patkai Men's Hostel">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="assets/images/img-20220925-250-1288x966.jpeg"
+                                        <img class="d-block w-100" src="assets/images/2.jpg"
                                             alt="Patkai Men's Hostel">
                                     </div>
                                     <div class="carousel-item">
@@ -522,7 +986,32 @@
                                             alt="Patkai Men's Hostel">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="assets/images/cric2.jpg"
+                                        <img class="d-block w-100" src="assets/images/20.jpg"
+                                            alt="Patkai Men's Hostel">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="assets/images/21.jpg"
+                                            alt="Patkai Men's Hostel">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="assets/images/22.jpg"
+                                            alt="Patkai Men's Hostel">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="assets/images/15.jpg"
+                                            alt="Patkai Men's Hostel">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="assets/images/volley1.jpeg"
+                                            alt="Patkai Men's Hostel">
+                                    </div>
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="assets/images/19.jpg"
+                                            alt="Patkai Men's Hostel">
+                                    </div>
+                                    
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="assets/images/admin.jpeg"
                                             alt="Patkai Men's Hostel">
                                     </div>
 
@@ -542,7 +1031,19 @@
                                         data-bs-target="#lb-tjYJgd938z"></li>
                                     <li data-slide-to="5" data-bs-slide-to="5" class="" data-target="#lb-tjYJgd938z"
                                         data-bs-target="#lb-tjYJgd938z"></li>
-
+                                        <li data-slide-to="6" data-bs-slide-to="6" class="" data-target="#lb-tjYJgd938z"
+                                        data-bs-target="#lb-tjYJgd938z"></li>
+                                        <li data-slide-to="7" data-bs-slide-to="7" class="" data-target="#lb-tjYJgd938z"
+                                        data-bs-target="#lb-tjYJgd938z"></li>
+                                        <li data-slide-to="8" data-bs-slide-to="8" class="" data-target="#lb-tjYJgd938z"
+                                        data-bs-target="#lb-tjYJgd938z"></li>
+                                        <li data-slide-to="9" data-bs-slide-to="9" class="" data-target="#lb-tjYJgd938z"
+                                        data-bs-target="#lb-tjYJgd938z"></li>
+                                        <li data-slide-to="10" data-bs-slide-to="10" class="" data-target="#lb-tjYJgd938z"
+                                        data-bs-target="#lb-tjYJgd938z"></li>
+                                        <li data-slide-to="11" data-bs-slide-to="11" class="" data-target="#lb-tjYJgd938z"
+                                        data-bs-target="#lb-tjYJgd938z"></li>
+                                    
 
                                 </ol>
                                 <a role="button" href="" class="close" data-dismiss="modal" data-bs-dismiss="modal"
@@ -563,7 +1064,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
 
     <section data-bs-version="5.1" class="footer6 cid-tjMItXflmx" once="footers" id="footer6-9">
@@ -600,6 +1101,12 @@
                 <div class="col-12 col-md-3 mbr-fonts-style display-7">
                     <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>Download Links</strong></h5>
                     <ul class="list mbr-fonts-style mb-4 display-4">
+                        <li class="mbr-text item-wrap"><a
+                            href="leave_card.pdf"
+                            class="text-warning" target="_blank">Hostel Leave form</a></li><a
+                        href="leave_card.pdf"
+                        class="text-primary" target="_blank">
+                    </a>
                         <li class="mbr-text item-wrap"><a
                                 href="http://www.tezu.ernet.in/hostels/patkai/downloads/hostel_withdrawal.pdf"
                                 class="text-warning" target="_blank">Hostel withdrawal form</a></li><a
@@ -669,7 +1176,7 @@
                 </div>
                 <div class="col-sm-12 copyright pl-0">
                     <p class="mbr-text mbr-fonts-style mbr-white display-7">
-                        © Copyright 2022 Patkai Men's Hostel, Tezpur University Napaam , Tezpur -
+                        © Copyright 2023 Patkai Men's Hostel, Tezpur University Napaam , Tezpur -
                         784028.<br>&nbsp;Developed by <a
                             href="https://www.facebook.com/people/Aryan-Ashwini/100063992094438/" class="text-warning"
                             target="_blank">Aryan</a><br>

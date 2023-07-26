@@ -985,8 +985,8 @@ blockquote {
 }
 
 .CoordinatorCard{
-  margin: 20px 50px 50px 20px;
-  width: 25%;
+  margin: 10px 50px 50px 10px;
+  width: 35%;
 }
 
 .SocialLinks{
@@ -1033,8 +1033,8 @@ marquee{
 }
 marquee .news-article{
   color: white;
-  padding-left: 15px !important;
-  padding-right: 15px !important;
+  /* padding-left: 25px !important; */
+  padding-right: 30px !important;
 }
 marquee .news-article a:link{
   color: white;
